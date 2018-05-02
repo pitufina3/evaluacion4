@@ -1,0 +1,58 @@
+
+/*Seleccion por etiqueta*/
+h1 {
+    color: red;
+    
+}
+
+/*Seleccion por clase*/
+.cabecera {
+    color: yellow;
+}
+.destacado{
+    font-weight: bold;
+}
+
+
+
+header > #logo {
+    margin-right: 30px;
+    margin-top: 10px;
+
+}
+
+
+.container > .row > .col:nth-child(2) {
+    font-size:30px;
+}
+
+.container > .row > .col:last-child {
+    color: red; 
+    text-align: left;
+    background-color: yellow;
+    vertical-align: bottom;
+
+}
+
+.container > .row:nth-child(2)  img {
+    margin: 30px;
+
+}
+
+
+footer {
+    padding-left:10px;
+    padding-right: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
